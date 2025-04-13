@@ -1,0 +1,44 @@
+body {
+      font-family: "Roboto";
+      padding: 0;
+      margin: 0;
+}
+
+ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+}
+
+a {
+      text-decoration: none;
+      color: #f9faf8;
+}
+
+/* Hero and Header */
+.hero {
+      padding-left: 10%;
+      padding-right: 10%;
+      background-color: #1f2937;
+}
+
+header {
+      display: flex;
+      justify-content: space-between;
+}
+
+.logo {
+      width: 100px;
+      height: 100px;
+}
+.links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+}
+
+.hero-maintext {
+      color: #f9faf8;
+      font-size: 48px;
+      font-weight: 900;
+}
