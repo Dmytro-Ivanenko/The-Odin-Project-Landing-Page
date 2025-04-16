@@ -20,11 +20,14 @@ a {
       padding-left: 10%;
       padding-right: 10%;
       background-color: #1f2937;
+
+      color: #f9faf8;
 }
 
 header {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 40px;
 }
 
 .logo {
@@ -35,10 +38,53 @@ header {
       display: flex;
       gap: 20px;
       align-items: center;
+
+      font-size: 24px;
 }
 
+/* Hero */
+.section-hero {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+
+      padding: 20px 0px;
+}
+.section-hero-wrapper {
+      max-width: 700px;
+}
 .hero-maintext {
-      color: #f9faf8;
       font-size: 48px;
       font-weight: 900;
+
+      margin: 0;
+}
+.hero-sec-text {
+      color: #e5e7eb;
+      font-size: 18px;
+
+      margin-top: 0px;
+      margin-bottom: 10px;
+}
+.hero-image {
+      width: 350px;
+      height: auto;
+
+      align-self: center;
+
+      border-radius: 10px;
+}
+
+/* Buttons */
+
+button {
+      padding: 5px 15px;
+
+      color: #e5e7eb;
+      font-family: inherit;
+      background-color: #3882f6;
+      border-radius: 5px;
+      border: none;
+
+      cursor: pointer;
 }
