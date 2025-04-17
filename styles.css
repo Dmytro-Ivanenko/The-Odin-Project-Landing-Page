@@ -20,10 +20,13 @@ h2 {
       margin: 0px;
 }
 
-/* Hero and Header */
-.hero {
+.container {
       padding-left: 10%;
       padding-right: 10%;
+}
+
+/* Hero and Header */
+.hero {
       margin-bottom: 30px;
       background-color: #1f2937;
 
@@ -98,9 +101,6 @@ button {
 /* section-info */
 
 .section-info {
-      padding-left: 10%;
-      padding-right: 10%;
-
       font-size: 18px;
 }
 
@@ -131,4 +131,35 @@ button {
       width: 300px;
 
       border-radius: 10px;
+}
+
+/* quote */
+.section-quote {
+      padding-top: 80px;
+      padding-bottom: 80px;
+
+      background-color: #e5e7eb;
+}
+
+.quote-wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+}
+.quote {
+      display: block;
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937de;
+      font-weight: lighter;
+
+      text-align: left;
+      margin-bottom: 20px;
+}
+
+.author {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: right;
+
+      margin: 0;
 }
